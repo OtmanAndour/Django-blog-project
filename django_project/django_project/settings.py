@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # Dev SECRET KEY: '7#_%p4t1qp4y!r59+^cufelmq4ubc^da3uv@&vooomqi7a=@7(')
-SECRET_KEY = os.environ.get('DJANGO_PROJECT_KEY') 
+SECRET_KEY = os.environ.get('SECRET_KEY') 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
